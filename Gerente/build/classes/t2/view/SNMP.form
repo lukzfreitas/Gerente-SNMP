@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="t2.view.SNMP">
+  <grid id="27dc6" binding="snmpPanel" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="608" height="298"/>
+    </constraints>
+    <properties>
+      <preferredSize width="500" height="261"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="aa866" class="javax.swing.JButton" binding="get">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="GET"/>
+        </properties>
+      </component>
+      <component id="95fdd" class="javax.swing.JList" binding="list">
+        <constraints>
+          <grid row="0" column="0" row-span="8" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model>
+            <item value=".1.3.6.1.2.1.4.9.0"/>
+            <item value=".1.3.6.1.2.1.6.10.0"/>
+            <item value=".1.3.6.1.2.1.6.11.0"/>
+            <item value=".1.3.6.1.2.1.7.1.0"/>
+            <item value=".1.3.6.1.2.1.7.4.0"/>
+            <item value=".1.3.6.1.2.1.11.1.0"/>
+            <item value=".1.3.6.1.2.1.11.2.0"/>
+            <item value="Utilização de Link"/>
+          </model>
+        </properties>
+      </component>
+      <component id="68903" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="IP da Máquina:"/>
+        </properties>
+      </component>
+      <component id="67984" class="javax.swing.JTextField" binding="IpAddressTextField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a2a92" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Comunidade:"/>
+        </properties>
+      </component>
+      <component id="6c3e5" class="javax.swing.JTextField" binding="CommunityTextField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bca95" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Tempo de Periodicidade (segundos):"/>
+        </properties>
+      </component>
+      <component id="55cd9" class="javax.swing.JTextField" binding="TimeTextField">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="577" class="javax.swing.JTextArea" binding="DescriptionTextArea">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
