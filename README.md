@@ -8,4 +8,5 @@ Esta aplicação tem como objetivo realizar a monitaração de envio e recebimen
 Para a realizaçao deste trabalho foi utilizada biblioteca SNMPJ4 ver [documentação](http://www.snmp4j.org/).
 
 # Exemplos
-(https://raw.githubusercontent.com/lukzfreitas/Gerente-SNMP/master/Imagens/telaInicial.PNG)
+![TELA_INICIAL](https://raw.githubusercontent.com/lukzfreitas/Gerente-SNMP/master/Imagens/telaInicial.PNG)
+![TELA_GRAFICO](https://raw.githubusercontent.com/lukzfreitas/Gerente-SNMP/master/Imagens/telaGrafico.PNG)
