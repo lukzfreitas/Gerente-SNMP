@@ -8,5 +8,7 @@ Esta aplicação tem como objetivo realizar a monitaração de envio e recebimen
 Para a realizaçao deste trabalho foi utilizada biblioteca SNMPJ4 ver [documentação](http://www.snmp4j.org/).
 
 # Exemplos
+Tela Inicial da aplicação
 ![TELA_INICIAL](https://raw.githubusercontent.com/lukzfreitas/Gerente-SNMP/master/Imagens/telaInicial.PNG)
+Exemplo de gráfico taxa de pacotes de IP enviados
 ![TELA_GRAFICO](https://raw.githubusercontent.com/lukzfreitas/Gerente-SNMP/master/Imagens/telaGrafico.PNG)
